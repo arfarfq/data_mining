@@ -1,0 +1,6 @@
+date_features: ["membership_start", "membership_end", "last_badge_swipe"]
+
+incongruent_types: ["uses_print", "guest_passes_issued", "lifetime_value"]
+
+plan_order:
+  ["hot_desk", "flex", "dedicated_desk", "full_time", "private_office"]
