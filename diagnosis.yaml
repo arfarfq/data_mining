@@ -4,3 +4,30 @@ incongruent_types: ["uses_print", "guest_passes_issued", "lifetime_value"]
 
 plan_order:
   ["hot_desk", "flex", "dedicated_desk", "full_time", "private_office"]
+
+gender_aliases: {'f': 'Female', 'female': 'Female', 'm': 'Male', 'male': 'Male', 'o': 'Other', 'other': 'Other'}
+country_aliases: {
+    'pt': 'Portugal', 'portugal': 'Portugal', 'portucal': 'Portugal',
+    'uk': 'United Kingdom', 'u.k.': 'United Kingdom', 'gb': 'United Kingdom', 'united kingdom': 'United Kingdom',
+    'de': 'Germany', 'germany': 'Germany', 'deutschland': 'Germany',
+    'es': 'Spain', 'spain': 'Spain', 'espana': 'Spain', 'españa': 'Spain',
+    'fr': 'France', 'france': 'France',
+    'nl': 'Netherlands', 'netherlands': 'Netherlands', 'the netherlands': 'Netherlands', 'holland': 'Netherlands',
+    'ie': 'Ireland', 'ireland': 'Ireland', 'other (europe)': 'Other (Europe)',
+}
+industry_aliases = {
+    'it': 'Information Technology', 'tech': 'Information Technology', 'information technology': 'Information Technology',
+    'marketing & pr': 'Marketing & PR', 'marketing/pr': 'Marketing & PR', 'marketing and pr': 'Marketing & PR',
+    'design & creative': 'Design & Creative', 'design/creative': 'Design & Creative', 'design and creative': 'Design & Creative',
+    'real estate': 'Real Estate', 'real-estate': 'Real Estate', 'realestate': 'Real Estate',
+}
+
+plan_order: ['hot_desk', 'flex', 'dedicated_desk', 'full_time', 'private_office']
+
+plan_tier: {
+    "flex": "flex", "Flex": "flex", "FLEX": "flex",
+    "hot_desk": "hot_desk", "HOT_DESK": "hot_desk", "Hot Desk": "hot_desk", "hotdesk": "hot_desk",
+    "full_time": "full_time", "FULL_TIME": "full_time", "Full Time": "full_time", "fulltime": "full_time",
+    "dedicated_desk": "dedicated_desk", "DEDICATED_DESK": "dedicated_desk", "Dedicated Desk": "dedicated_desk", "dedicateddesk": "dedicated_desk",
+    "private_office": "private_office", "PRIVATE_OFFICE": "private_office", "Private Office": "private_office", "privateoffice": "private_office",
+}
