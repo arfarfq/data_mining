@@ -17,3 +17,4 @@ wheels/
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/inspectionProfiles/Project_Default.xml
 .gitignore
+repomix-output.xml
